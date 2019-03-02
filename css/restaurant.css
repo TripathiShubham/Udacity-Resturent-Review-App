@@ -1,0 +1,19 @@
+@media screen and (min-width: 840px) {
+    #maincontent {
+      flex-direction: row;
+    }
+    #map-container {
+      order: 2;
+      flex: 1;
+      height: 100vh !important;
+      position: sticky;
+      top: 0px;
+    }
+    #restaurant-container {
+      order: 1;
+    }
+    
+    #content-container {
+        flex: 1;
+    }
+  }
